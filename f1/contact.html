@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us | F1 Uni Society</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script async src="https://platform.twitter.com/widgets.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a class="logo" href="index.html">
+				<img src="images/smalllogo.png" alt="Logo">
+			</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="gallery.html">Image Gallery</a></li>
+				<li><a href="events.html">Events Calendar</a></li>
+				<li><a href="members.html">Current Members</a></li>
+				<li><a href="season.html">Current Season</a></li>
+				<li><a href="trips.html">F1 Trips</a></li>
+				<li><a href="watch.html">Watch Alongs</a></li>
+				<li class="login-form">
+					<input type="email" placeholder="Email">
+					<input type="password" placeholder="Password">
+					<button type="button" onclick="login()">Login</button>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div class="column">
+				<h1>Contact Us</h1>
+				<form method="post" action="submit.php">
+		            <label for="name">Name:</label>
+		            <input type="text" id="name" name="name" required>
+		            <label for="email">Email:</label>
+		            <input type="email" id="email" name="email" required>
+		            <label for="subject">Subject:</label>
+		            <input type="text" id="subject" name="subject" required>
+		            <label for="message">Message:</label>
+		            <textarea id="message" name="message" required></textarea>
+		            <button type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
+		            <div id="form_outcome"></div>
+		        </form>
+			</div>
+			<div class="column">
+				<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Welcome the the f1 Society... Website dropping soon 👀🏎️👀</p>&mdash; RGU f1 Society (@F1societyRGU) <a href="https://twitter.com/F1societyRGU/status/1646190133249560576?ref_src=twsrc%5Etfw">April 12, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"></script></div>
+</div>
+	</main>
+	<footer>
+		<p>© 2023 F1 Uni Society. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>

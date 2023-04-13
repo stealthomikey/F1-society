@@ -1,0 +1,392 @@
+/* Set styles for the header element */
+header {
+	background-color: #262626;
+	padding: 1rem 2rem;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+/* Set styles for the navigation element */
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav img {
+	height: 60px; /* adjust the height as needed */
+	margin-right: 2rem;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-right: 2rem;
+	list-style: none; /* remove bullet points */
+}
+
+nav a {
+	color: #fff;
+	font-weight: 600;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #f00;
+}
+
+.login-form {
+	display: flex;
+	align-items: center;
+	margin-right: 5rem;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form button {
+	margin-left: 10px;
+	padding: 5px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: Garamond, serif;
+}
+
+/* Set styles for the footer element */
+footer {
+	background-color: #262626;
+	color: #Ffd700;
+	padding: 1rem 2rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+/* Set styles for the main content area */
+main {
+	margin-top: -2rem;
+	background-color: #AB2328;
+	padding: 2rem;
+	margin-bottom: 0;
+	min-height: 100vh;
+}
+
+/* Set styles for headings within the main content area */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+	margin-top: 2rem;
+}
+
+/* Set styles for the Home page */
+.home {
+	background-color: #f00;
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.home h1 {
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
+
+.home p {
+	font-size: 1.5rem;
+	max-width: 600px;
+	margin-bottom: 2rem;
+}
+
+.home a {
+	background-color: #fff;
+	color: #f00;
+	padding: 1rem 2rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 2rem;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.home a:hover {
+	background-color: #fff;
+	color: #f00;
+}
+
+.home-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.home-text {
+	flex-basis: 50%;
+	padding-right: 2rem;
+}
+
+.home-logo {
+	flex-basis: 50%;
+	background-color: #262626;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150vh;
+	margin-right: -2rem;
+	margin-top: -450px;
+}
+
+.home-logo img {
+	max-width: 80%;
+}
+
+/* Set styles for the Contact Us page */
+form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+form label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+	display: block;
+	width: 100%;
+	padding: 0.5rem;
+	border: none;
+	border-bottom: 2px solid #333;
+	margin-bottom: 1.5rem;
+	font-size: 1rem;
+}
+
+form textarea {
+	resize: vertical;
+	min-height: 100px;
+}
+
+form button {
+	background-color: #262626;
+	color: #fff;
+	padding: 1rem 2rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 2rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+form button:hover {
+	background-color: #fff;
+	color: #262626;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.column {
+	flex-basis: 48%;
+	margin-bottom: 20px;
+}
+
+.twitter-feed {
+	height: 500px;
+}
+
+/* Set styles for the Image Gallery page */
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 1rem;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+	display: block;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+/* Set styles for the Events Calendar page */
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table th,
+table td {
+	padding: 1rem;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+table th {
+	background-color: #152238;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+	background-color: #FAF0DC;
+}
+
+table tr:nth-child(odd) {
+	background-color: #E8DCB5;
+}
+
+table tr:hover {
+	background-color: #D5B895;
+}
+
+
+
+/* Set styles for the Current Members page */
+#members main ul {
+	list-style: none;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#members li {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+}
+
+#members li strong {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+#members li em {
+	font-style: italic;
+	color: #999;
+}
+
+/* Set styles for the Current Season page */
+#season main p {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+}
+
+.current-season table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.current-season th,
+.current-season td {
+	padding: 1rem;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+.current-season th {
+	background-color: #f00;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.current-season tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.current-season tr:hover {
+	background-color: #f5f5f5;
+}
+
+/* Set styles for the F1 Trips page */
+#trips main p {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+}
+
+trips table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+trips th,
+trips td {
+	padding: 1rem;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+trips th {
+	background-color: #f00;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+trips tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+trips tr:hover {
+	background-color: #f5f5f5;
+}
+
+/* Set styles for the Watch Alongs page */
+#watch main p {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+}
+
+.watch-alongs table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.watch-alongs th,
+.watch-alongs td {
+	padding: 1rem;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+.watch-alongs th {
+	background-color: #f00;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.watch-alongs tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.watch-alongs tr:hover {
+	background-color: #f5f5f5;
+}
